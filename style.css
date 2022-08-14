@@ -1,0 +1,143 @@
+:root{
+    --blue:#1877f2;
+    --green:#42b72a;
+    --bg-color:#f0f2f5;
+}
+*{
+    border:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+ background-color: #f0f2f5;
+}
+
+.section-one,
+.section-two{
+    width:550px;
+    margin:0 auto;
+    max-width:100%;    
+    display:inline-block;   
+    /*width: 50%;
+    float: left;
+    padding: 20px;*/    
+}
+
+.section-two{
+    background-color: white;
+    width:500px;
+    box-shadow:2px 2px 2px rgb(180, 170, 170);
+    margin-left:150px;
+    margin-top:80px;
+}
+
+.main-logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:42px;
+    font-weight:bold;
+    color:var(--blue);
+    line-height:6px;
+    margin-left:200px;
+}
+
+.main-texts{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    width:300px;
+    margin-left:200px;    
+}
+
+input{
+    width:450px;
+    padding:20px 35px;
+    border-radius:8px;
+    margin-bottom:10px;
+    margin-left:35px;
+    margin-top:15px;
+    transition:0.3s;
+    border:0.8px solid var(--bg-color);
+}
+
+input::placeholder{
+    font-size:14px;
+}
+
+input:focus{
+    outline-color:blue;
+}
+
+.log-btn{
+    display:block;
+    width:450px;
+    height:45px;
+    margin-top:10px;
+    margin-left:35px;
+    background-color:#0f72f3;
+    border-radius:5px;
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+.last-one{
+    display:block;
+}
+
+.pass-tag{
+    color:var(--blue);
+    font-size:12px;
+    text-align:center;
+    font-size:17px;
+    margin-top:15px;
+    margin-bottom:21px;
+}
+
+.pass-tag a{
+    text-decoration:none;
+}
+
+.pass-tag a:visited{
+    color:var(--blue);
+}
+
+.pass-tag:hover{
+    text-decoration:underline;
+    cursor:pointer;
+    
+}
+.pass-tag hr{
+    color:black;
+}
+
+.acct-btn{
+    display:block;
+    width:300px;
+    height:45px;
+    margin-top:10px;
+    margin-left:80px;
+    background-color:var(--green);
+    border-radius:5px;
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+    padding-left:36px;
+    padding-right:36px;
+    margin-bottom:15px;
+    cursor:pointer;  
+}
+
+.last-one{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left:200px;    
+}
+.hr-line{
+    display:block;
+    border-bottom: 0.4px solid rgb(217, 204, 204);
+    width:430px;
+    margin:30px;
+}
